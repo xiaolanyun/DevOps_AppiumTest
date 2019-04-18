@@ -2,22 +2,22 @@
 <testng-results skipped="1" failed="0" total="1" passed="0">
   <reporter-output>
     <line>
-      <![CDATA[[2019_04_18_09_48_26_rootAddUser] ,截图失败，原因：null]]>
+      <![CDATA[[2019_04_18_12_46_49_rootAddUser] ,截图失败，原因：null]]>
     </line>
     <line>
-      <![CDATA[<img src="../../[2019_04_18_09_48_26_rootAddUser] ,截图失败，原因：null"/>]]>
+      <![CDATA[<img src="../../[2019_04_18_12_46_49_rootAddUser] ,截图失败，原因：null"/>]]>
     </line>
   </reporter-output>
-  <suite name="小烂云Mart" duration-ms="1895" started-at="2019-04-18T01:48:24Z" finished-at="2019-04-18T01:48:26Z">
+  <suite name="小烂云Mart" duration-ms="1719" started-at="2019-04-18T04:46:47Z" finished-at="2019-04-18T04:46:49Z">
     <groups>
     </groups>
-    <test name="管理员登陆添加买家卖家账户并购买商品发货" duration-ms="1895" started-at="2019-04-18T01:48:24Z" finished-at="2019-04-18T01:48:26Z">
+    <test name="管理员登陆添加买家卖家账户并购买商品发货" duration-ms="1719" started-at="2019-04-18T04:46:47Z" finished-at="2019-04-18T04:46:49Z">
       <class name="com.xiaolanyun.appium.DataTest.testCase.RootAddUserAndBuyGoods.RootAddUser_001_UICheckForAddUser_Test">
-        <test-method status="FAIL" signature="initTest(org.testng.ITestContext)[pri:0, instance:com.xiaolanyun.appium.DataTest.testCase.RootAddUserAndBuyGoods.RootAddUser_001_UICheckForAddUser_Test@3bae64d0]" name="initTest" is-config="true" duration-ms="0" started-at="2019-04-18T09:48:24Z" finished-at="2019-04-18T09:48:24Z">
+        <test-method status="FAIL" signature="initTest(org.testng.ITestContext)[pri:0, instance:com.xiaolanyun.appium.DataTest.testCase.RootAddUserAndBuyGoods.RootAddUser_001_UICheckForAddUser_Test@7e736350]" name="initTest" is-config="true" duration-ms="0" started-at="2019-04-18T12:46:47Z" finished-at="2019-04-18T12:46:47Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@4137004e]]>
+                <![CDATA[org.testng.TestRunner@448d7e38]]>
               </value>
             </param>
           </params>
@@ -25,13 +25,13 @@
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'xiaolanyun', ip: '192.168.222.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+System info: host: 'xiaolanyun', ip: '66.183.237.166', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
 Driver info: driver.version: SelectDriver]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'xiaolanyun', ip: '192.168.222.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+System info: host: 'xiaolanyun', ip: '66.183.237.166', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
 Driver info: driver.version: SelectDriver
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
 	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
@@ -69,7 +69,7 @@ Driver info: driver.version: SelectDriver
 	at java.lang.Thread.run(Thread.java:748)
 Caused by: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'xiaolanyun', ip: '192.168.222.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+System info: host: 'xiaolanyun', ip: '66.183.237.166', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
 Driver info: driver.version: SelectDriver
 	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:79)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
@@ -108,17 +108,17 @@ Caused by: java.net.ConnectException: Connection refused: connect
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initTest -->
-        <test-method status="SKIP" signature="rootAddUser()[pri:0, instance:com.xiaolanyun.appium.DataTest.testCase.RootAddUserAndBuyGoods.RootAddUser_001_UICheckForAddUser_Test@3bae64d0]" name="rootAddUser" duration-ms="3" started-at="2019-04-18T09:48:26Z" finished-at="2019-04-18T09:48:26Z">
+        <test-method status="SKIP" signature="rootAddUser()[pri:0, instance:com.xiaolanyun.appium.DataTest.testCase.RootAddUserAndBuyGoods.RootAddUser_001_UICheckForAddUser_Test@7e736350]" name="rootAddUser" duration-ms="4" started-at="2019-04-18T12:46:49Z" finished-at="2019-04-18T12:46:49Z">
           <reporter-output>
             <line>
-              <![CDATA[[2019_04_18_09_48_26_rootAddUser] ,截图失败，原因：null]]>
+              <![CDATA[[2019_04_18_12_46_49_rootAddUser] ,截图失败，原因：null]]>
             </line>
             <line>
-              <![CDATA[<img src="../../[2019_04_18_09_48_26_rootAddUser] ,截图失败，原因：null"/>]]>
+              <![CDATA[<img src="../../[2019_04_18_12_46_49_rootAddUser] ,截图失败，原因：null"/>]]>
             </line>
           </reporter-output>
         </test-method> <!-- rootAddUser -->
-        <test-method status="SKIP" signature="clenTest()[pri:0, instance:com.xiaolanyun.appium.DataTest.testCase.RootAddUserAndBuyGoods.RootAddUser_001_UICheckForAddUser_Test@3bae64d0]" name="clenTest" is-config="true" duration-ms="0" started-at="2019-04-18T09:48:26Z" finished-at="2019-04-18T09:48:26Z">
+        <test-method status="SKIP" signature="clenTest()[pri:0, instance:com.xiaolanyun.appium.DataTest.testCase.RootAddUserAndBuyGoods.RootAddUser_001_UICheckForAddUser_Test@7e736350]" name="clenTest" is-config="true" duration-ms="0" started-at="2019-04-18T12:46:49Z" finished-at="2019-04-18T12:46:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clenTest -->

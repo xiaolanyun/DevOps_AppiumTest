@@ -44,13 +44,6 @@
     	<version>6.9.10</version>
     	<scope>test</scope>
     </dependency>
-    
-    <dependency>
-		<groupId>com.saucelabs</groupId>
-		<artifactId>sauce_junit</artifactId>
-		<version>LATEST</version>
-		<scope>test</scope>
-	</dependency>
 	
 	<dependency>
 		<groupId>org.seleniumhq.selenium</groupId>

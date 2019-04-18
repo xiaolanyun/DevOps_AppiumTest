@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="2.64" tests="3" errors="0" skipped="2" failures="1">
+<testsuite name="TestSuite" time="2.511" tests="3" errors="0" skipped="2" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="D:\JAVA\jdk1.8191\jre\bin"/>
     <property name="java.vm.version" value="25.191-b12"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="E:\java_workspace\DevOps_AppiumTest"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:/java_workspace/DevOps_AppiumTest"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -27,9 +27,9 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin\..\bin\m2.conf"/>
+    <property name="classworlds.conf" value="D:/DevOps_Config/apache-maven-3.3.9-bin/apache-maven-3.3.9/bin/m2.conf"/>
     <property name="sun.jnu.encoding" value="GBK"/>
-    <property name="java.library.path" value="D:\JAVA\jdk1.8191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\python3.7\Scripts\;D:\python3.7\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\python3.7\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\git\Git\cmd;D:\node.js\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\24075\AppData\Local\Microsoft\WindowsApps;D:\JAVA\jdk1.8191\bin;D:\JAVA\jdk1.8191\jre\bin;D:\android_sdk\platform-tools;D:\android_sdk\tools;D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\git\Git\cmd;C:\Windows\System32;C:\Program Files\Appium;D:\Microsoft VS Code\bin;C:\Windows\System32\cmd.exe;D:\mongoDB\bin;C:\Users\24075\AppData\Roaming\npm;D:\apache-jmeter-5.0\apache-jmeter-5.0\bin;D:\Fiddler;C:\Users\24075\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.library.path" value="D:\JAVA\jdk1.8191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\24075\bin;D:\git\Git\mingw64\bin;D:\git\Git\usr\local\bin;D:\git\Git\usr\bin;D:\git\Git\usr\bin;D:\git\Git\mingw64\bin;D:\git\Git\usr\bin;C:\Users\24075\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\python3.7\Scripts;D:\python3.7;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\Intel\iCLS Client;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\python3.7\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;D:\git\Git\cmd;D:\node.js;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\24075\AppData\Local\Microsoft\WindowsApps;D:\JAVA\jdk1.8191\bin;D:\JAVA\jdk1.8191\jre\bin;D:\android_sdk\platform-tools;D:\android_sdk\tools;D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\git\Git\cmd;C:\Windows\System32;C:\Program Files\Appium;D:\Microsoft VS Code\bin;C:\Windows\System32\cmd.exe;D:\mongoDB\bin;C:\Users\24075\AppData\Roaming\npm;D:\apache-jmeter-5.0\apache-jmeter-5.0\bin;D:\Fiddler;C:\Users\24075\AppData\Local\GitHubDesktop\bin;D:\git\Git\usr\bin\vendor_perl;D:\git\Git\usr\bin\core_perl;."/>
     <property name="surefire.test.class.path" value="E:\java_workspace\DevOps_AppiumTest\target\test-classes;E:\java_workspace\DevOps_AppiumTest\target\classes;D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\repository\junit\junit\3.8.1\junit-3.8.1.jar;D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\repository\io\appium\java-client\3.4.0\java-client-3.4.0.jar;D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\repository\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar;D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\repository\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar;D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\repository\commons-codec\commons-codec\1.6\commons-codec-1.6.jar;D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\repository\com\google\guava\guava\17.0\guava-17.0.jar;D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\repository\cglib\cglib\3.1\cglib-3.1.jar;D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\repository\org\ow2\asm\asm\4.2\asm-4.2.jar;D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\repository\commons-validator\commons-validator\1.4.1\commons-validator-1.4.1.jar;D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\repository\commons-beanutils\commons-beanutils\1.8.3\commons-beanutils-1.8.3.jar;D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\repository\org\testng\testng\6.9.10\testng-6.9.10.jar;D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\repository\com\beust\jcommander\1.48\jcommander-1.48.jar;D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\repository\com\saucelabs\sauce_junit\2.1.25\sauce_junit-2.1.25.jar;D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\repository\com\saucelabs\sauce_java_common\2.1.25\sauce_java_common-2.1.25.jar;D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\repository\com\saucelabs\saucerest\1.0.39\saucerest-1.0.39.jar;D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\repository\org\json\json\20171018\json-20171018.jar;D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\repository\org\seleniumhq\selenium\selenium-java\2.53.0\selenium-java-2.53.0.jar;D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.53.0\selenium-chrome-driver-2.53.0.jar;D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\repository\org\seleniumhq\selenium\selenium-edge-driver\2.53.0\selenium-edge-driver-2.53.0.jar;D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.53.0\selenium-firefox-driver-2.53.0.jar;D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\repository\org\seleniumhq\selenium\selenium-ie-driver\2.53.0\selenium-ie-driver-2.53.0.jar;D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\repository\org\seleniumhq\selenium\selenium-safari-driver\2.53.0\selenium-safari-driver-2.53.0.jar;D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\repository\io\netty\netty\3.5.7.Final\netty-3.5.7.Final.jar;D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\repository\org\seleniumhq\selenium\selenium-support\2.53.0\selenium-support-2.53.0.jar;D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\repository\org\seleniumhq\selenium\selenium-leg-rc\2.53.0\selenium-leg-rc-2.53.0.jar;D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\repository\org\seleniumhq\selenium\selenium-remote-driver\2.53.0\selenium-remote-driver-2.53.0.jar;D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar;D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\repository\org\seleniumhq\selenium\selenium-api\2.53.0\selenium-api-2.53.0.jar;D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar;D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar;D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\repository\log4j\log4j\1.2.16\log4j-1.2.16.jar;D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\repository\commons-configuration\commons-configuration\1.9\commons-configuration-1.9.jar;D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\repository\com\googlecode\json-simple\json-simple\1.1\json-simple-1.1.jar;D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar;D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\repository\net\sourceforge\jexcelapi\jxl\2.6.12\jxl-2.6.12.jar;D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\repository\org\apache\poi\poi-ooxml\3.10-FINAL\poi-ooxml-3.10-FINAL.jar;D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\repository\org\apache\poi\poi\3.10-FINAL\poi-3.10-FINAL.jar;D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\repository\org\apache\poi\poi-ooxml-schemas\3.10-FINAL\poi-ooxml-schemas-3.10-FINAL.jar;D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\repository\com\thoughtworks\qdox\qdox\1.12.1\qdox-1.12.1.jar;D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\repository\org\apache\maven\surefire\surefire-testng-utils\2.18.1\surefire-testng-utils-2.18.1.jar;D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\repository\org\apache\maven\surefire\surefire-grouper\2.18.1\surefire-grouper-2.18.1.jar;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
@@ -41,7 +41,7 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="GBK"/>
     <property name="user.name" value="24075"/>
-    <property name="java.class.path" value="D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.class.path" value="D:/DevOps_Config/apache-maven-3.3.9-bin/apache-maven-3.3.9/boot/plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="D:\JAVA\jdk1.8191\jre"/>
@@ -53,22 +53,20 @@
     <property name="java.version" value="1.8.0_191"/>
     <property name="java.ext.dirs" value="D:\JAVA\jdk1.8191\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="D:\JAVA\jdk1.8191\jre\lib\resources.jar;D:\JAVA\jdk1.8191\jre\lib\rt.jar;D:\JAVA\jdk1.8191\jre\lib\sunrsasign.jar;D:\JAVA\jdk1.8191\jre\lib\jsse.jar;D:\JAVA\jdk1.8191\jre\lib\jce.jar;D:\JAVA\jdk1.8191\jre\lib\charsets.jar;D:\JAVA\jdk1.8191\jre\lib\jfr.jar;D:\JAVA\jdk1.8191\jre\classes"/>
-    <property name="sun.stderr.encoding" value="ms936"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin\.."/>
+    <property name="maven.home" value="D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9"/>
     <property name="localRepository" value="D:\DevOps_Config\apache-maven-3.3.9-bin\apache-maven-3.3.9\repository"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="sun.stdout.encoding" value="ms936"/>
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="initTest" classname="com.xiaolanyun.appium.DataTest.testCase.RootAddUserAndBuyGoods.RootAddUser_001_UICheckForAddUser_Test" time="2.64">
-    <failure message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.&#10;Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;&#10;System info: host: &apos;xiaolanyun&apos;, ip: &apos;192.168.222.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;&#10;Driver info: driver.version: SelectDriver" type="org.openqa.selenium.remote.UnreachableBrowserException"><![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+  <testcase name="initTest" classname="com.xiaolanyun.appium.DataTest.testCase.RootAddUserAndBuyGoods.RootAddUser_001_UICheckForAddUser_Test" time="2.511">
+    <failure message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.&#10;Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;&#10;System info: host: &apos;xiaolanyun&apos;, ip: &apos;66.183.237.166&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;&#10;Driver info: driver.version: SelectDriver" type="org.openqa.selenium.remote.UnreachableBrowserException"><![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'xiaolanyun', ip: '192.168.222.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+System info: host: 'xiaolanyun', ip: '66.183.237.166', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
 Driver info: driver.version: SelectDriver
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
 	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
@@ -106,7 +104,7 @@ Driver info: driver.version: SelectDriver
 	at java.lang.Thread.run(Thread.java:748)
 Caused by: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'xiaolanyun', ip: '192.168.222.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+System info: host: 'xiaolanyun', ip: '66.183.237.166', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
 Driver info: driver.version: SelectDriver
 	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:79)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
@@ -251,23 +249,23 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
 ]]></failure>
-    <system-out><![CDATA[[2019-04-18 09:48:24] [INFO] RetryCount=0
-[2019-04-18 09:48:24] [INFO] SourceDir=com/xiaolanyun/appium/DataTest/testCase
-[2019-04-18 09:48:24] [INFO] SourceEncoding=UTF-8
+    <system-out><![CDATA[[2019-04-18 12:46:47] [INFO] RetryCount=0
+[2019-04-18 12:46:47] [INFO] SourceDir=com/xiaolanyun/appium/DataTest/testCase
+[2019-04-18 12:46:47] [INFO] SourceEncoding=UTF-8
 ]]></system-out>
   </testcase>
   <testcase name="rootAddUser" classname="com.xiaolanyun.appium.DataTest.testCase.RootAddUserAndBuyGoods.RootAddUser_001_UICheckForAddUser_Test" time="0">
     <skipped/>
-    <system-out><![CDATA[[2019-04-18 09:48:26] [INFO] rootAddUser 测试用例开始执行！
-[2019-04-18 09:48:26] [INFO] rootAddUser 测试用例开始执行！
+    <system-out><![CDATA[[2019-04-18 12:46:49] [INFO] rootAddUser 测试用例开始执行！
+[2019-04-18 12:46:49] [INFO] rootAddUser 测试用例开始执行！
 ]]></system-out>
   </testcase>
   <testcase name="clenTest" classname="com.xiaolanyun.appium.DataTest.testCase.RootAddUserAndBuyGoods.RootAddUser_001_UICheckForAddUser_Test" time="0">
     <skipped/>
-    <system-out><![CDATA[[2019-04-18 09:48:26] [WARN] rootAddUser 测试用例由于某些原因被跳过！
-[2019-04-18 09:48:26] [ERROR] [RootAddUser_001_UICheckForAddUser_Test] ,截图失败，原因：null
-[2019-04-18 09:48:26] [WARN] rootAddUser 测试用例由于某些原因被跳过！
-[2019-04-18 09:48:26] [ERROR] [2019_04_18_09_48_26_rootAddUser] ,截图失败，原因：null
+    <system-out><![CDATA[[2019-04-18 12:46:49] [WARN] rootAddUser 测试用例由于某些原因被跳过！
+[2019-04-18 12:46:49] [ERROR] [RootAddUser_001_UICheckForAddUser_Test] ,截图失败，原因：null
+[2019-04-18 12:46:49] [WARN] rootAddUser 测试用例由于某些原因被跳过！
+[2019-04-18 12:46:49] [ERROR] [2019_04_18_12_46_49_rootAddUser] ,截图失败，原因：null
 ]]></system-out>
   </testcase>
 </testsuite>

@@ -54,7 +54,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-小烂云Mart">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -170,6 +170,16 @@
       &lt;class name=&quot;com.xiaolanyun.appium.DataTest.testCase.RootAddUserAndBuyGoods.RootAddUser_001_UICheckForAddUser_Test&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- 管理员登陆添加买家卖家账户并购买商品发货 --&gt;
+  &lt;test name=&quot;管理员登陆添加买家卖家账户并购买商品发货(failed)&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.xiaolanyun.appium.DataTest.testCase.RootAddUserAndBuyGoods.RootAddUser_001_UICheckForAddUser_Test&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;initTest&quot;/&gt;
+          &lt;include name=&quot;rootAddUser&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.xiaolanyun.appium.DataTest.testCase.RootAddUserAndBuyGoods.RootAddUser_001_UICheckForAddUser_Test --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 管理员登陆添加买家卖家账户并购买商品发货(failed) --&gt;
 &lt;/suite&gt; &lt;!-- 小烂云Mart --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -182,6 +192,9 @@
             <ul>
               <li>
                 <span class="test-name">管理员登陆添加买家卖家账户并购买商品发货 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">管理员登陆添加买家卖家账户并购买商品发货(failed) (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -211,12 +224,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'rootAddUser')
 data.setCell(0, 2, 'com.xiaolanyun.appium.DataTest.testCase.RootAddUserAndBuyGoods.RootAddUser_001_UICheckForAddUser_Test')
-data.setCell(0, 3, 3);
+data.setCell(0, 3, 4);
 window.suiteTableData['小烂云Mart']= { tableData: data, tableDiv: 'times-div-小烂云Mart'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 ms</span>
+              <span class="suite-total-time">Total running time: 4 ms</span>
               <div id="times-div-小烂云Mart">
               </div> <!-- times-div-小烂云Mart -->
             </div> <!-- times-div -->
@@ -230,8 +243,8 @@ return data;
             <div class="reporter-method-div">
               <span class="reporter-method-name">rootAddUser</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">[2019_04_18_09_48_26_rootAddUser] ,截图失败，原因：null</span>
-                <span class="reporter-method-output"><img src="../../[2019_04_18_09_48_26_rootAddUser] ,截图失败，原因：null"/></span>
+                <span class="reporter-method-output">[2019_04_18_12_46_49_rootAddUser] ,截图失败，原因：null</span>
+                <span class="reporter-method-output"><img src="../../[2019_04_18_12_46_49_rootAddUser] ,截图失败，原因：null"/></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -253,12 +266,12 @@ return data;
               <div class="configuration-class before">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">initTest(org.testng.TestRunner@4137004e)</span>
+                <span class="method-name">initTest(org.testng.TestRunner@448d7e38)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">rootAddUser</span>
-                <span class="method-start">1865 ms</span>
+                <span class="method-start">1700 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
