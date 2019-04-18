@@ -55,9 +55,9 @@ public class BasePrepare {
       }
   }
   
-	/**
+	/*
 	 * 测试数据提供者 - 方法
-	 * */
+	 */
 	@DataProvider(name = "testData")
 	public Iterator<Object[]> dataFortestMethod() throws IOException {
 		String moduleName = null; // 模块的名字
@@ -67,14 +67,14 @@ public class BasePrepare {
 		int underlineIndexNum = className.indexOf("_"); // 取得第一个_的index
 
 		if (dotIndexNum > 0) {
-			/**这里的calssName原始值大概是这样的：com.xiaolanyun.appium.DataTest.testCase.login.LoginPage_001_loginError_Test
+			/*这里的calssName原始值大概是这样的：com.xiaolanyun.appium.DataTest.testCase.login.LoginPage_001_loginError_Test
 			 * 那么下面这段代码className.substring(40, className.lastIndexOf("."))是什么意思？substring方法参数有两个
 			 * 一个开始位置，一个结束位置，40表示这个字符串的第40个位置，这个位置当前字符是l,className.lastIndexOf(".")表示返回这字符串最后一个.所在
 			 * 的位置，它是45，那么className.substring(40, className.lastIndexOf("."))可以转换成：className.substring(40, 45)，最终取得的值是login，
 			 * 也就是moduleName的值
 			 * 
 			 * 
-			 * */
+			 */
 			moduleName = className.substring(40, className.lastIndexOf(".")); // 取到模块的名称
 		}
 
