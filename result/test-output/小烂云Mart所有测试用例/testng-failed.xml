@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [小烂云Mart所有测试用例]" parallel="tests">
+  <parameter name="automationName" value="Appium"/>
+  <parameter name="appFilePath" value="res/properties/app.properties"/>
+  <parameter name="iosAppPath" value="res/app/ios/xxx.app"/>
+  <parameter name="androidAppPath" value="res/app/android/XiaoLanYunMart-v1.1.1-debug-2019-04-10-09-58.apk"/>
+  <parameter name="appActivity" value="com.example.xiaolanyun.mart.ui.SplashActivity"/>
+  <parameter name="serverURL" value="http://127.0.0.1:4723/wd/hub"/>
+  <parameter name="sessionOverride" value="true"/>
+  <parameter name="udid" value=""/>
+  <parameter name="appPackage" value="com.example.xiaolanyun.ldmart"/>
+  <parameter name="platformVersion" value="6.0.1"/>
+  <parameter name="platformName" value="Android"/>
+  <parameter name="deviceName" value="63a7b810"/>
+  <parameter name="sleepTime" value="1"/>
+  <parameter name="unicodeKeyboard" value="true"/>
+  <parameter name="resetKeyboard" value="true"/>
+  <parameter name="elementTimeOut" value="15"/>
+  <listeners>
+    <listener class-name="com.xiaolanyun.appium.DataTest.plugins.excelReporter.TestResultListener"/>
+    <listener class-name="com.xiaolanyun.appium.DataTest.plugins.excelReporter.ExcelReporter"/>
+    <listener class-name="com.xiaolanyun.appium.DataTest.plugins.htmlReporter.TestResultListener"/>
+    <listener class-name="com.xiaolanyun.appium.DataTest.plugins.htmlReporter.RetryListener"/>
+    <listener class-name="com.xiaolanyun.appium.DataTest.plugins.htmlReporter.PowerEmailableReporter"/>
+  </listeners>
+  <test name="登陆管理员账户">
+    <packages>
+      <package name="com.xiaolanyun.appium.DataTest.testCase.Login"/>
+    </packages>
+    <classes>
+      <class name="com.xiaolanyun.appium.DataTest.testCase.Login.LoginPage_001_UICheckForRootLogin_Test"/>
+    </classes>
+  </test> <!-- 登陆管理员账户 -->
+  <test name="管理员界面切换">
+    <packages>
+      <package name="com.xiaolanyun.appium.DataTest.testCase.RootNavigation"/>
+    </packages>
+    <classes>
+      <class name="com.xiaolanyun.appium.DataTest.testCase.RootNavigation.RootNavigationPage_001_UICheckForRootLogin_Test"/>
+    </classes>
+  </test> <!-- 管理员界面切换 -->
+  <test name="管理员登陆添加买家卖家账户并购买商品发货">
+    <packages>
+      <package name="com.xiaolanyun.appium.DataTest.testCase.RootAddUserAndBuyGoods"/>
+    </packages>
+    <classes>
+      <class name="com.xiaolanyun.appium.DataTest.testCase.RootAddUserAndBuyGoods.RootAddUser_001_UICheckForAddUser_Test"/>
+    </classes>
+  </test> <!-- 管理员登陆添加买家卖家账户并购买商品发货 -->
+</suite> <!-- Failed suite [小烂云Mart所有测试用例] -->

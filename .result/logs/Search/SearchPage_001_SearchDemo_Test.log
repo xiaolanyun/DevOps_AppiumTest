@@ -1,0 +1,10 @@
+[2019-04-15 09:03:37] [INFO] 必应搜索APP已经启动
+[2019-04-15 09:03:37] [INFO] searchDemo 测试用例开始执行！
+[2019-04-15 09:03:37] [INFO] searchDemo 测试用例开始执行！
+[2019-04-15 09:03:53] [WARN] searchDemo 测试用例执行失败！
+[2019-04-15 09:03:55] [INFO] [SearchPage_001_SearchDemo_Test] 截图成功，保存在：[ result/screenshots/SearchPage_001_SearchDemo_Test.png ]
+[2019-04-15 09:03:55] [WARN] searchDemo 测试用例执行失败！
+[2019-04-15 09:03:56] [INFO] [SearchPage_001_SearchDemo_Test] 截图成功，保存在：[ result/screenshots/SearchPage_001_SearchDemo_Test.png ]
+[2019-04-15 09:03:57] [INFO] 必应搜索APP已经关闭
+[2019-04-15 09:03:57] [INFO] 执行失败的用例 = searchDemo
+[2019-04-15 09:03:57] [INFO] 执行失败的用例 = searchDemo

@@ -1,0 +1,11 @@
+[2019-04-15 09:08:46] [INFO] 必应搜索APP已经启动
+[2019-04-15 09:08:46] [INFO] uiCheck 测试用例开始执行！
+[2019-04-15 09:08:46] [INFO] uiCheck 测试用例开始执行！
+[2019-04-15 09:09:02] [WARN] uiCheck 测试用例执行失败！
+[2019-04-15 09:09:03] [INFO] [HomePage_001_UiCheck_Test] 截图成功，保存在：[ result/screenshots/HomePage_001_UiCheck_Test.png ]
+[2019-04-15 09:09:03] [WARN] uiCheck 测试用例执行失败！
+[2019-04-15 09:09:04] [INFO] [HomePage_001_UiCheck_Test] 截图成功，保存在：[ result/screenshots/HomePage_001_UiCheck_Test.png ]
+[2019-04-15 09:09:05] [INFO] 必应搜索APP已经关闭
+[2019-04-15 09:09:05] [INFO] 执行失败的用例 = uiCheck
+[2019-04-15 09:09:05] [INFO] 执行失败的用例 = uiCheck
+[2019-04-15 09:09:07] [INFO] Excel报告已经生成，请查看：[E:\java_workspace\DevOps_AppiumTest\test-output\excelReports\TestReport_2019-04-15_09-09-appium实战-Android篇.xlsx]

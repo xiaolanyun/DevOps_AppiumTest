@@ -1,0 +1,43 @@
+[2019-04-17 09:37:35] [INFO] 小烂云Mart已经启动
+[2019-04-17 09:37:35] [INFO] rootAddUser 测试用例开始执行！
+[2019-04-17 09:37:35] [INFO] rootAddUser 测试用例开始执行！
+[2019-04-17 09:37:35] [INFO] rootAddUser 测试用例开始执行！
+[2019-04-17 09:37:35] [INFO] rootAddUser 测试用例开始执行！
+[2019-04-17 09:37:35] [INFO] 管理员登陆
+[2019-04-17 09:37:43] [INFO] 在元素： id: com.example.xiaolanyun.ldmart:id/et_username输入内容root
+[2019-04-17 09:37:49] [INFO] 在元素： id: com.example.xiaolanyun.ldmart:id/et_password输入内容123456
+[2019-04-17 09:37:49] [INFO] 点击元素： id: com.example.xiaolanyun.ldmart:id/rbtn_root
+[2019-04-17 09:37:49] [INFO] 等待2s加载登录按钮
+[2019-04-17 09:37:52] [INFO] 点击元素： id: com.example.xiaolanyun.ldmart:id/btn_login
+[2019-04-17 09:37:52] [INFO] 管理员账户登陆成功
+[2019-04-17 09:37:52] [INFO] 点击管理员账户导航栏
+[2019-04-17 09:37:53] [INFO] 点击元素： id: com.example.xiaolanyun.ldmart:id/tab_add_user
+[2019-04-17 09:37:53] [INFO] 已经切换到界面
+[2019-04-17 09:37:54] [INFO] 输入请输入用户名信息
+[2019-04-17 09:37:59] [INFO] 在元素： id: com.example.xiaolanyun.ldmart:id/username输入内容卖1
+[2019-04-17 09:37:59] [INFO] 输入卖1信息完毕
+[2019-04-17 09:37:59] [INFO] 输入信息
+[2019-04-17 09:38:05] [INFO] 在元素： id: com.example.xiaolanyun.ldmart:id/password1输入内容123456
+[2019-04-17 09:38:05] [INFO] 输入信息完毕
+[2019-04-17 09:38:05] [INFO] 输入信息
+[2019-04-17 09:38:10] [INFO] 在元素： id: com.example.xiaolanyun.ldmart:id/password2输入内容123456
+[2019-04-17 09:38:11] [INFO] 输入信息完毕
+[2019-04-17 09:38:11] [INFO] 点击添加商家按钮
+[2019-04-17 09:38:11] [INFO] 点击元素： id: com.example.xiaolanyun.ldmart:id/rbtn_seller
+[2019-04-17 09:38:12] [INFO] 已经点击添加商家按钮
+[2019-04-17 09:38:14] [INFO] 暂停:2秒
+[2019-04-17 09:38:14] [INFO] 点击添加卖家按钮
+[2019-04-17 09:38:15] [INFO] 点击元素： id: com.example.xiaolanyun.ldmart:id/btn_add_user
+[2019-04-17 09:38:31] [WARN] rootAddUser 测试用例执行失败！
+[2019-04-17 09:38:35] [INFO] [RootAddUser_Test] 截图成功，保存在：[ result/screenshots/RootAddUser_Test.png ]
+[2019-04-17 09:38:35] [WARN] rootAddUser 测试用例执行失败！
+[2019-04-17 09:38:38] [INFO] [2019_04_17_09_38_35_rootAddUser] 截图成功，保存在：[ result/screenshots/2019_04_17_09_38_35_rootAddUser.png ]
+[2019-04-17 09:38:38] [WARN] rootAddUser 测试用例执行失败！
+[2019-04-17 09:38:41] [INFO] [RootAddUser_Test] 截图成功，保存在：[ result/screenshots/RootAddUser_Test.png ]
+[2019-04-17 09:38:41] [WARN] rootAddUser 测试用例执行失败！
+[2019-04-17 09:38:44] [INFO] [2019_04_17_09_38_41_rootAddUser] 截图成功，保存在：[ result/screenshots/2019_04_17_09_38_41_rootAddUser.png ]
+[2019-04-17 09:38:45] [INFO] 小烂云Mart已经关闭
+[2019-04-17 09:38:45] [INFO] 执行失败的用例 = rootAddUser
+[2019-04-17 09:38:45] [INFO] 执行失败的用例 = rootAddUser
+[2019-04-17 09:38:45] [INFO] 执行失败的用例 = rootAddUser
+[2019-04-17 09:38:45] [INFO] 执行失败的用例 = rootAddUser

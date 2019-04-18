@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-小烂云Mart">
+              <span class="suite-name border-failed">小烂云Mart</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-小烂云Mart">
+                    <span>E:\java_workspace\DevOps_AppiumTest\runSingle.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-小烂云Mart">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-小烂云Mart">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-小烂云Mart">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-小烂云Mart">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-小烂云Mart">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-小烂云Mart">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method, 1 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-小烂云Mart" class="hide-methods failed suite-小烂云Mart"> (hide)</a> <!-- hide-methods failed suite-小烂云Mart -->
+                      <a href="#" panel-name="suite-小烂云Mart" class="show-methods failed suite-小烂云Mart"> (show)</a> <!-- show-methods failed suite-小烂云Mart -->
+                    </span>
+                    <div class="method-list-content failed suite-小烂云Mart">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-小烂云Mart" title="com.xiaolanyun.appium.DataTest.testCase.Login.LoginPage_001_UICheckForRootLogin_Test" hash-for-method="checkUI">checkUI</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-小烂云Mart -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-小烂云Mart" class="panel 小烂云Mart">
+          <div class="suite-小烂云Mart-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.xiaolanyun.appium.DataTest.testCase.Login.LoginPage_001_UICheckForRootLogin_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkUI">
+                  </a> <!-- checkUI -->
+                  <span class="method-name">checkUI</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.xiaolanyun.appium.DataTest.utils.AppiumUtil.findElement(AppiumUtil.java:92)
+	at com.xiaolanyun.appium.DataTest.utils.AppiumUtil.typeContent(AppiumUtil.java:116)
+	at com.xiaolanyun.appium.DataTest.pagesHelper.Mart_LoginPageHelper.clickForRootLogin(Mart_LoginPageHelper.java:42)
+	at com.xiaolanyun.appium.DataTest.testCase.Login.LoginPage_001_UICheckForRootLogin_Test.checkUI(LoginPage_001_UICheckForRootLogin_Test.java:25)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-小烂云Mart-class-failed -->
+        </div> <!-- panel 小烂云Mart -->
+        <div panel-name="test-xml-小烂云Mart" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\java_workspace\DevOps_AppiumTest\runSingle.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;小烂云Mart&quot; parallel=&quot;tests&quot;&gt;
+  &lt;parameter name=&quot;automationName&quot; value=&quot;Appium&quot;/&gt;
+  &lt;parameter name=&quot;appFilePath&quot; value=&quot;res/properties/app.properties&quot;/&gt;
+  &lt;parameter name=&quot;iosAppPath&quot; value=&quot;res/app/ios/xxx.app&quot;/&gt;
+  &lt;parameter name=&quot;androidAppPath&quot; value=&quot;res/app/android/XiaoLanYunMart-v1.1.1-debug-2019-04-10-09-58.apk&quot;/&gt;
+  &lt;parameter name=&quot;appActivity&quot; value=&quot;com.example.xiaolanyun.mart.ui.SplashActivity&quot;/&gt;
+  &lt;parameter name=&quot;serverURL&quot; value=&quot;http://127.0.0.1:4723/wd/hub&quot;/&gt;
+  &lt;parameter name=&quot;sessionOverride&quot; value=&quot;true&quot;/&gt;
+  &lt;parameter name=&quot;udid&quot; value=&quot;&quot;/&gt;
+  &lt;parameter name=&quot;appPackage&quot; value=&quot;com.example.xiaolanyun.ldmart&quot;/&gt;
+  &lt;parameter name=&quot;platformVersion&quot; value=&quot;6.0.1&quot;/&gt;
+  &lt;parameter name=&quot;platformName&quot; value=&quot;Android&quot;/&gt;
+  &lt;parameter name=&quot;deviceName&quot; value=&quot;63a7b810&quot;/&gt;
+  &lt;parameter name=&quot;sleepTime&quot; value=&quot;2&quot;/&gt;
+  &lt;parameter name=&quot;unicodeKeyboard&quot; value=&quot;true&quot;/&gt;
+  &lt;parameter name=&quot;resetKeyboard&quot; value=&quot;true&quot;/&gt;
+  &lt;parameter name=&quot;elementTimeOut&quot; value=&quot;15&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.xiaolanyun.appium.DataTest.plugins.excelReporter.TestResultListener&quot;/&gt;
+    &lt;listener class-name=&quot;com.xiaolanyun.appium.DataTest.plugins.excelReporter.ExcelReporter&quot;/&gt;
+    &lt;listener class-name=&quot;com.xiaolanyun.appium.DataTest.plugins.htmlReporter.TestResultListener&quot;/&gt;
+    &lt;listener class-name=&quot;com.xiaolanyun.appium.DataTest.plugins.htmlReporter.RetryListener&quot;/&gt;
+    &lt;listener class-name=&quot;com.xiaolanyun.appium.DataTest.plugins.htmlReporter.PowerEmailableReporter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;管理员登陆&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.xiaolanyun.appium.DataTest.testCase.Login.LoginPage_001_UICheckForRootLogin_Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 管理员登陆 --&gt;
+&lt;/suite&gt; &lt;!-- 小烂云Mart --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-小烂云Mart" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for 小烂云Mart</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">管理员登陆 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-小烂云Mart" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for 小烂云Mart</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-小烂云Mart" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for 小烂云Mart</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_小烂云Mart');
+function tableData_小烂云Mart() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'checkUI')
+data.setCell(0, 2, 'com.xiaolanyun.appium.DataTest.testCase.Login.LoginPage_001_UICheckForRootLogin_Test')
+data.setCell(0, 3, 9);
+window.suiteTableData['小烂云Mart']= { tableData: data, tableDiv: 'times-div-小烂云Mart'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 9 ms</span>
+              <div id="times-div-小烂云Mart">
+              </div> <!-- times-div-小烂云Mart -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-小烂云Mart" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for 小烂云Mart</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkUI</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">result/screenshots/2019_04_16_11_11_08_checkUI.png</span>
+                <span class="reporter-method-output"><img src="../../result/screenshots/2019_04_16_11_11_08_checkUI.png"/></span>
+                <span class="reporter-method-output">result/screenshots/2019_04_16_11_11_14_checkUI.png</span>
+                <span class="reporter-method-output"><img src="../../result/screenshots/2019_04_16_11_11_14_checkUI.png"/></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-小烂云Mart" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-小烂云Mart" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.xiaolanyun.appium.DataTest.testCase.Login.LoginPage_001_UICheckForRootLogin_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initTest(org.testng.TestRunner@3416249e)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkUI</span>
+                <span class="method-start">10961 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">clenTest</span>
+                <span class="method-start">21170 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

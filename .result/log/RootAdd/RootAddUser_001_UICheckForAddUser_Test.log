@@ -1,0 +1,9 @@
+[2019-04-18 09:48:26] [INFO] rootAddUser 测试用例开始执行！
+[2019-04-18 09:48:26] [INFO] rootAddUser 测试用例开始执行！
+[2019-04-18 09:48:26] [WARN] rootAddUser 测试用例由于某些原因被跳过！
+[2019-04-18 09:48:26] [ERROR] [RootAddUser_001_UICheckForAddUser_Test] ,截图失败，原因：null
+[2019-04-18 09:48:26] [WARN] rootAddUser 测试用例由于某些原因被跳过！
+[2019-04-18 09:48:26] [ERROR] [2019_04_18_09_48_26_rootAddUser] ,截图失败，原因：null
+[2019-04-18 09:48:26] [INFO] 被跳过的用例 = rootAddUser
+[2019-04-18 09:48:26] [INFO] 被跳过的用例 = rootAddUser
+[2019-04-18 09:48:28] [INFO] Excel报告已经生成，请查看：[E:\java_workspace\DevOps_AppiumTest\result\test-report\excelReports\TestReport_2019-04-18_09-48-小烂云Mart.xlsx]

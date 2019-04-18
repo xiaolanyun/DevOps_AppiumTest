@@ -1,0 +1,12 @@
+[2019-04-16 10:46:50] [INFO] 小烂云Mart已经启动
+[2019-04-16 10:46:50] [INFO] checkUI 测试用例开始执行！
+[2019-04-16 10:46:50] [INFO] checkUI 测试用例开始执行！
+[2019-04-16 10:46:50] [INFO] 管理员登陆
+[2019-04-16 10:46:50] [WARN] checkUI 测试用例执行失败！
+[2019-04-16 10:46:52] [INFO] [LoginPage_001_UICheckForRootLogin_Test] 截图成功，保存在：[ result/screenshots/LoginPage_001_UICheckForRootLogin_Test.png ]
+[2019-04-16 10:46:52] [WARN] checkUI 测试用例执行失败！
+[2019-04-16 10:46:54] [INFO] [LoginPage_001_UICheckForRootLogin_Test] 截图成功，保存在：[ result/screenshots/LoginPage_001_UICheckForRootLogin_Test.png ]
+[2019-04-16 10:46:55] [INFO] 小烂云Mart已经关闭
+[2019-04-16 10:46:55] [INFO] 执行失败的用例 = checkUI
+[2019-04-16 10:46:55] [INFO] 执行失败的用例 = checkUI
+[2019-04-16 10:46:56] [INFO] Excel报告已经生成，请查看：[E:\java_workspace\DevOps_AppiumTest\test-output\excelReports\TestReport_2019-04-16_10-46-appium实战-Android篇.xlsx]
