@@ -29,14 +29,4 @@
       <class name="com.xiaolanyun.appium.DataTest.testCase.RootAddUserAndBuyGoods.RootAddUser_001_UICheckForAddUser_Test"/>
     </classes>
   </test> <!-- 管理员登陆添加买家卖家账户并购买商品发货 -->
-  <test name="管理员登陆添加买家卖家账户并购买商品发货(failed)" parallel="tests">
-    <classes>
-      <class name="com.xiaolanyun.appium.DataTest.testCase.RootAddUserAndBuyGoods.RootAddUser_001_UICheckForAddUser_Test">
-        <methods>
-          <include name="initTest"/>
-          <include name="rootAddUser"/>
-        </methods>
-      </class> <!-- com.xiaolanyun.appium.DataTest.testCase.RootAddUserAndBuyGoods.RootAddUser_001_UICheckForAddUser_Test -->
-    </classes>
-  </test> <!-- 管理员登陆添加买家卖家账户并购买商品发货(failed) -->
 </suite> <!-- Failed suite [小烂云Mart] -->

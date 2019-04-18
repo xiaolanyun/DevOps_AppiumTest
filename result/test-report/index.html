@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-小烂云Mart">
-              <span class="suite-name border-skipped">小烂云Mart</span>
+              <span class="suite-name border-passed">小烂云Mart</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -54,7 +54,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-小烂云Mart">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,21 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,  1 skipped,  </span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-小烂云Mart" class="hide-methods skipped suite-小烂云Mart"> (hide)</a> <!-- hide-methods skipped suite-小烂云Mart -->
-                      <a href="#" panel-name="suite-小烂云Mart" class="show-methods skipped suite-小烂云Mart"> (show)</a> <!-- show-methods skipped suite-小烂云Mart -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-小烂云Mart" class="hide-methods passed suite-小烂云Mart"> (hide)</a> <!-- hide-methods passed suite-小烂云Mart -->
+                      <a href="#" panel-name="suite-小烂云Mart" class="show-methods passed suite-小烂云Mart"> (show)</a> <!-- show-methods passed suite-小烂云Mart -->
                     </span>
-                    <div class="method-list-content skipped suite-小烂云Mart">
+                    <div class="method-list-content passed suite-小烂云Mart">
                       <span>
-                        <img width="3%" src="skipped.png"/>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-小烂云Mart" title="com.xiaolanyun.appium.DataTest.testCase.RootAddUserAndBuyGoods.RootAddUser_001_UICheckForAddUser_Test" hash-for-method="rootAddUser">rootAddUser</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content skipped suite-小烂云Mart -->
+                    </div> <!-- method-list-content passed suite-小烂云Mart -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -117,9 +117,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-小烂云Mart" class="panel 小烂云Mart">
-          <div class="suite-小烂云Mart-class-skipped">
+          <div class="suite-小烂云Mart-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
+              <img src="passed.png"/>
               <span class="class-name">com.xiaolanyun.appium.DataTest.testCase.RootAddUserAndBuyGoods.RootAddUser_001_UICheckForAddUser_Test</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -131,7 +131,7 @@
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-小烂云Mart-class-skipped -->
+          </div> <!-- suite-小烂云Mart-class-passed -->
         </div> <!-- panel 小烂云Mart -->
         <div panel-name="test-xml-小烂云Mart" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -170,16 +170,6 @@
       &lt;class name=&quot;com.xiaolanyun.appium.DataTest.testCase.RootAddUserAndBuyGoods.RootAddUser_001_UICheckForAddUser_Test&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- 管理员登陆添加买家卖家账户并购买商品发货 --&gt;
-  &lt;test name=&quot;管理员登陆添加买家卖家账户并购买商品发货(failed)&quot; parallel=&quot;tests&quot;&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;com.xiaolanyun.appium.DataTest.testCase.RootAddUserAndBuyGoods.RootAddUser_001_UICheckForAddUser_Test&quot;&gt;
-        &lt;methods&gt;
-          &lt;include name=&quot;initTest&quot;/&gt;
-          &lt;include name=&quot;rootAddUser&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- com.xiaolanyun.appium.DataTest.testCase.RootAddUserAndBuyGoods.RootAddUser_001_UICheckForAddUser_Test --&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- 管理员登陆添加买家卖家账户并购买商品发货(failed) --&gt;
 &lt;/suite&gt; &lt;!-- 小烂云Mart --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -192,9 +182,6 @@
             <ul>
               <li>
                 <span class="test-name">管理员登陆添加买家卖家账户并购买商品发货 (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">管理员登陆添加买家卖家账户并购买商品发货(failed) (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -224,12 +211,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'rootAddUser')
 data.setCell(0, 2, 'com.xiaolanyun.appium.DataTest.testCase.RootAddUserAndBuyGoods.RootAddUser_001_UICheckForAddUser_Test')
-data.setCell(0, 3, 4);
+data.setCell(0, 3, 142094);
 window.suiteTableData['小烂云Mart']= { tableData: data, tableDiv: 'times-div-小烂云Mart'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 ms</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-小烂云Mart">
               </div> <!-- times-div-小烂云Mart -->
             </div> <!-- times-div -->
@@ -240,13 +227,6 @@ return data;
             <span class="header-content">Reporter output for 小烂云Mart</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">rootAddUser</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">[2019_04_18_12_46_49_rootAddUser] ,截图失败，原因：null</span>
-                <span class="reporter-method-output"><img src="../../[2019_04_18_12_46_49_rootAddUser] ,截图失败，原因：null"/></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-小烂云Mart" class="panel">
@@ -264,15 +244,17 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.xiaolanyun.appium.DataTest.testCase.RootAddUserAndBuyGoods.RootAddUser_001_UICheckForAddUser_Test</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">initTest(org.testng.TestRunner@448d7e38)</span>
+                <span class="method-name">initTest(org.testng.TestRunner@15f8701f)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">rootAddUser</span>
-                <span class="method-start">1700 ms</span>
+                <span class="method-start">11195 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">clenTest</span>
+                <span class="method-start">153291 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
