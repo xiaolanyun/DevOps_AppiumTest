@@ -339,6 +339,7 @@ public class CreateExcelForResult{
     				XSSFCellStyle xcs = workbook.createCellStyle();
 				 for (ITestNGMethod im : overview.getFailedTests().getAllMethods()) {	//模块下有多少个用例循环
  					String caseName = im.getTestClass().getRealClass().getSimpleName();
+ 					System.out.println("fail"+caseName);
  					String functionPack = caseName.substring(0, caseName.indexOf("P")).toLowerCase();
  					//设置用例名字
 					workbook.getSheet(function).getRow(count+2).getCell(1).setCellValue(new XSSFRichTextString(caseName));
@@ -377,6 +378,7 @@ public class CreateExcelForResult{
     				XSSFCellStyle xcs = workbook.createCellStyle();
    				 for (ITestNGMethod im : overview.getSkippedTests().getAllMethods()) {	//模块下有多少个用例循环
    					String caseName = im.getTestClass().getRealClass().getSimpleName();
+   					System.out.println("skip"+caseName);
    					String functionPack = caseName.substring(0, caseName.indexOf("P")).toLowerCase();
  					workbook.getSheet(function).getRow(count+2+failTestNum).getCell(1).setCellValue(new XSSFRichTextString(caseName));
  					workbook.getSheet(function).getRow(count+2+failTestNum).getCell(2).setCellValue(new XSSFRichTextString("Skipped"));
@@ -398,6 +400,7 @@ public class CreateExcelForResult{
 			        workbook.getSheet(function).getRow(count+2+failTestNum).getCell(4).setCellStyle(setClickableLinkToBlueColor(workbook));
 					
  					count++;
+ 					
  				}
     			}
     			count=0;
@@ -406,6 +409,7 @@ public class CreateExcelForResult{
     				XSSFCellStyle xcs = workbook.createCellStyle();
       				 for (ITestNGMethod im : overview.getPassedTests().getAllMethods()) {	//模块下有多少个用例循环
       					String caseName = im.getTestClass().getRealClass().getSimpleName();
+      					System.out.println("pass"+caseName);
       					String functionPack = caseName.substring(0, caseName.indexOf("P")).toLowerCase();
       					workbook.getSheet(function).getRow(count+2+failTestNum+skipTestNum).getCell(1).setCellValue(new XSSFRichTextString(caseName));
       					workbook.getSheet(function).getRow(count+2+failTestNum+skipTestNum).getCell(2).setCellValue(new XSSFRichTextString("Passed"));

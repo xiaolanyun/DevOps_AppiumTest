@@ -2,31 +2,31 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="小烂云Mart" duration-ms="162349" started-at="2019-04-19T09:02:22Z" finished-at="2019-04-19T09:05:04Z">
+  <suite name="小烂云Mart单个用例" duration-ms="154109" started-at="2019-04-19T13:15:04Z" finished-at="2019-04-19T13:17:38Z">
     <groups>
     </groups>
-    <test name="管理员登陆添加买家卖家账户并购买商品发货" duration-ms="162349" started-at="2019-04-19T09:02:22Z" finished-at="2019-04-19T09:05:04Z">
-      <class name="com.xiaolanyun.appium.DataTest.testCase.RootAddUserAndBuyGoods.RootAddUser_001_UICheckForAddUser_Test">
-        <test-method status="PASS" signature="initTest(org.testng.ITestContext)[pri:0, instance:com.xiaolanyun.appium.DataTest.testCase.RootAddUserAndBuyGoods.RootAddUser_001_UICheckForAddUser_Test@72538db1]" name="initTest" is-config="true" duration-ms="19191" started-at="2019-04-19T17:02:22Z" finished-at="2019-04-19T17:02:41Z">
+    <test name="管理员登陆添加买家卖家账户并购买商品发货" duration-ms="154109" started-at="2019-04-19T13:15:04Z" finished-at="2019-04-19T13:17:38Z">
+      <class name="com.xiaolanyun.appium.DataTest.testCase.RootAddUserAndBuyGoods.RootAddUserPage_001_UICheckForAddUserAndBuyGoods_Test">
+        <test-method status="PASS" signature="initTest(org.testng.ITestContext)[pri:0, instance:com.xiaolanyun.appium.DataTest.testCase.RootAddUserAndBuyGoods.RootAddUserPage_001_UICheckForAddUserAndBuyGoods_Test@52ca6359]" name="initTest" is-config="true" duration-ms="11465" started-at="2019-04-19T21:15:04Z" finished-at="2019-04-19T21:15:15Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@2566d85e]]>
+                <![CDATA[org.testng.TestRunner@389f2c6e]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initTest -->
-        <test-method status="PASS" signature="rootAddUser()[pri:0, instance:com.xiaolanyun.appium.DataTest.testCase.RootAddUserAndBuyGoods.RootAddUser_001_UICheckForAddUser_Test@72538db1]" name="rootAddUser" duration-ms="142309" started-at="2019-04-19T17:02:41Z" finished-at="2019-04-19T17:05:04Z">
+        <test-method status="PASS" signature="rootAddUser()[pri:0, instance:com.xiaolanyun.appium.DataTest.testCase.RootAddUserAndBuyGoods.RootAddUserPage_001_UICheckForAddUserAndBuyGoods_Test@52ca6359]" name="rootAddUser" duration-ms="141926" started-at="2019-04-19T21:15:15Z" finished-at="2019-04-19T21:17:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- rootAddUser -->
-        <test-method status="PASS" signature="clenTest()[pri:0, instance:com.xiaolanyun.appium.DataTest.testCase.RootAddUserAndBuyGoods.RootAddUser_001_UICheckForAddUser_Test@72538db1]" name="clenTest" is-config="true" duration-ms="783" started-at="2019-04-19T17:05:04Z" finished-at="2019-04-19T17:05:04Z">
+        <test-method status="PASS" signature="clenTest()[pri:0, instance:com.xiaolanyun.appium.DataTest.testCase.RootAddUserAndBuyGoods.RootAddUserPage_001_UICheckForAddUserAndBuyGoods_Test@52ca6359]" name="clenTest" is-config="true" duration-ms="705" started-at="2019-04-19T21:17:37Z" finished-at="2019-04-19T21:17:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clenTest -->
-      </class> <!-- com.xiaolanyun.appium.DataTest.testCase.RootAddUserAndBuyGoods.RootAddUser_001_UICheckForAddUser_Test -->
+      </class> <!-- com.xiaolanyun.appium.DataTest.testCase.RootAddUserAndBuyGoods.RootAddUserPage_001_UICheckForAddUserAndBuyGoods_Test -->
     </test> <!-- 管理员登陆添加买家卖家账户并购买商品发货 -->
-  </suite> <!-- 小烂云Mart -->
+  </suite> <!-- 小烂云Mart单个用例 -->
 </testng-results>
