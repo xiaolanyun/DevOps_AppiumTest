@@ -4,9 +4,9 @@
 	<!--server地址 -->
 	<parameter name="serverURL" value="http://127.0.0.1:4723/wd/hub" />
 	<!--automationName为selendroid or appium，如果sdk版本>=17请使用appium；如果sdk版本<=17请使用selendroid -->
-	<parameter name="automationName" value="Appium" />
+	<parameter name="automationName" value="appium" />
 	<!-- 测试平台 iOS和Android -->
-	<parameter name="platformName" value="Android" />
+	<parameter name="platformName" value="android" />
 	<!-- 平台版本 -->
 	<parameter name="platformVersion" value="6.0.1" />
 	<!-- 设备名字，可随意起名字，但是要有意义 -->

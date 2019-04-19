@@ -2,27 +2,27 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="小烂云Mart" duration-ms="165639" started-at="2019-04-18T11:20:42Z" finished-at="2019-04-18T11:23:27Z">
+  <suite name="小烂云Mart" duration-ms="162349" started-at="2019-04-19T09:02:22Z" finished-at="2019-04-19T09:05:04Z">
     <groups>
     </groups>
-    <test name="管理员登陆添加买家卖家账户并购买商品发货" duration-ms="165639" started-at="2019-04-18T11:20:42Z" finished-at="2019-04-18T11:23:27Z">
+    <test name="管理员登陆添加买家卖家账户并购买商品发货" duration-ms="162349" started-at="2019-04-19T09:02:22Z" finished-at="2019-04-19T09:05:04Z">
       <class name="com.xiaolanyun.appium.DataTest.testCase.RootAddUserAndBuyGoods.RootAddUser_001_UICheckForAddUser_Test">
-        <test-method status="PASS" signature="initTest(org.testng.ITestContext)[pri:0, instance:com.xiaolanyun.appium.DataTest.testCase.RootAddUserAndBuyGoods.RootAddUser_001_UICheckForAddUser_Test@65409285]" name="initTest" is-config="true" duration-ms="23454" started-at="2019-04-18T19:20:42Z" finished-at="2019-04-18T19:21:05Z">
+        <test-method status="PASS" signature="initTest(org.testng.ITestContext)[pri:0, instance:com.xiaolanyun.appium.DataTest.testCase.RootAddUserAndBuyGoods.RootAddUser_001_UICheckForAddUser_Test@72538db1]" name="initTest" is-config="true" duration-ms="19191" started-at="2019-04-19T17:02:22Z" finished-at="2019-04-19T17:02:41Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6950694c]]>
+                <![CDATA[org.testng.TestRunner@2566d85e]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initTest -->
-        <test-method status="PASS" signature="rootAddUser()[pri:0, instance:com.xiaolanyun.appium.DataTest.testCase.RootAddUserAndBuyGoods.RootAddUser_001_UICheckForAddUser_Test@65409285]" name="rootAddUser" duration-ms="141393" started-at="2019-04-18T19:21:05Z" finished-at="2019-04-18T19:23:26Z">
+        <test-method status="PASS" signature="rootAddUser()[pri:0, instance:com.xiaolanyun.appium.DataTest.testCase.RootAddUserAndBuyGoods.RootAddUser_001_UICheckForAddUser_Test@72538db1]" name="rootAddUser" duration-ms="142309" started-at="2019-04-19T17:02:41Z" finished-at="2019-04-19T17:05:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- rootAddUser -->
-        <test-method status="PASS" signature="clenTest()[pri:0, instance:com.xiaolanyun.appium.DataTest.testCase.RootAddUserAndBuyGoods.RootAddUser_001_UICheckForAddUser_Test@65409285]" name="clenTest" is-config="true" duration-ms="731" started-at="2019-04-18T19:23:26Z" finished-at="2019-04-18T19:23:27Z">
+        <test-method status="PASS" signature="clenTest()[pri:0, instance:com.xiaolanyun.appium.DataTest.testCase.RootAddUserAndBuyGoods.RootAddUser_001_UICheckForAddUser_Test@72538db1]" name="clenTest" is-config="true" duration-ms="783" started-at="2019-04-19T17:05:04Z" finished-at="2019-04-19T17:05:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clenTest -->

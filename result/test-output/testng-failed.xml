@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [小烂云Mart]" parallel="tests">
-  <parameter name="automationName" value="Appium"/>
+  <parameter name="automationName" value="appium"/>
   <parameter name="appFilePath" value="res/properties/app.properties"/>
   <parameter name="iosAppPath" value="res/app/ios/xxx.app"/>
   <parameter name="androidAppPath" value="res/app/android/XiaoLanYunMart-v1.1.1-debug-2019-04-10-09-58.apk"/>
@@ -11,7 +11,7 @@
   <parameter name="udid" value=""/>
   <parameter name="appPackage" value="com.example.xiaolanyun.ldmart"/>
   <parameter name="platformVersion" value="6.0.1"/>
-  <parameter name="platformName" value="Android"/>
+  <parameter name="platformName" value="android"/>
   <parameter name="deviceName" value="63a7b810"/>
   <parameter name="sleepTime" value="2"/>
   <parameter name="unicodeKeyboard" value="true"/>
