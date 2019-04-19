@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<suite name="appium实战-Android篇" parallel="tests" thread-count="1">
+<suite name="小烂云Mart冒烟测试" parallel="tests" thread-count="1">
 	<!--server地址  -->
 	<parameter name="serverURL" value="http://127.0.0.1:4723/wd/hub" />
 	<!--automationName为selendroid or appium，如果sdk版本>=17请使用appium；如果sdk版本<=17请使用selendroid-->
