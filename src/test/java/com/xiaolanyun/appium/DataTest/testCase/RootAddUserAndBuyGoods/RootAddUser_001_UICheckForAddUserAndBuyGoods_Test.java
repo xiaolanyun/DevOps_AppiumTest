@@ -20,9 +20,9 @@ import com.xiaolanyun.appium.DataTest.pagesHelper.Mart_SellerOrdersPageHelper;
 /*
  * @author 24075
  * @classname:RootAddUser_Test
- * @Description:本测试用例用于添加卖家账户，并进行登陆
+ * @Description:本测试用例用于添加买家卖家账户，并进行登陆，购买商品，卖家进行发货
  */
-public class RootAddUser_001_UICheckForAddUser_Test extends BasePrepare{
+public class RootAddUser_001_UICheckForAddUserAndBuyGoods_Test extends BasePrepare{
 	@Test
 	public void rootAddUser(){
 		//登录管理员账户

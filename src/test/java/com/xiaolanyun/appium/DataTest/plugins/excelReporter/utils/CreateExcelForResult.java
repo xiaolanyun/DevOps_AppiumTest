@@ -339,7 +339,7 @@ public class CreateExcelForResult{
     				XSSFCellStyle xcs = workbook.createCellStyle();
 				 for (ITestNGMethod im : overview.getFailedTests().getAllMethods()) {	//模块下有多少个用例循环
  					String caseName = im.getTestClass().getRealClass().getSimpleName();
- 					String functionPack = caseName.substring(0, caseName.indexOf("P")-1).toLowerCase();
+ 					String functionPack = caseName.substring(0, caseName.indexOf("P")).toLowerCase();
  					//设置用例名字
 					workbook.getSheet(function).getRow(count+2).getCell(1).setCellValue(new XSSFRichTextString(caseName));
 					//设置用例运行的状态
@@ -377,7 +377,7 @@ public class CreateExcelForResult{
     				XSSFCellStyle xcs = workbook.createCellStyle();
    				 for (ITestNGMethod im : overview.getSkippedTests().getAllMethods()) {	//模块下有多少个用例循环
    					String caseName = im.getTestClass().getRealClass().getSimpleName();
-   					String functionPack = caseName.substring(0, caseName.indexOf("P")+1).toLowerCase();
+   					String functionPack = caseName.substring(0, caseName.indexOf("P")).toLowerCase();
  					workbook.getSheet(function).getRow(count+2+failTestNum).getCell(1).setCellValue(new XSSFRichTextString(caseName));
  					workbook.getSheet(function).getRow(count+2+failTestNum).getCell(2).setCellValue(new XSSFRichTextString("Skipped"));
 					workbook.getSheet(function).getRow(count+2+failTestNum).getCell(3).setCellFormula
@@ -406,7 +406,7 @@ public class CreateExcelForResult{
     				XSSFCellStyle xcs = workbook.createCellStyle();
       				 for (ITestNGMethod im : overview.getPassedTests().getAllMethods()) {	//模块下有多少个用例循环
       					String caseName = im.getTestClass().getRealClass().getSimpleName();
-      					String functionPack = caseName.substring(0, caseName.indexOf("P")+1).toLowerCase();
+      					String functionPack = caseName.substring(0, caseName.indexOf("P")).toLowerCase();
       					workbook.getSheet(function).getRow(count+2+failTestNum+skipTestNum).getCell(1).setCellValue(new XSSFRichTextString(caseName));
       					workbook.getSheet(function).getRow(count+2+failTestNum+skipTestNum).getCell(2).setCellValue(new XSSFRichTextString("Passed"));
     					workbook.getSheet(function).getRow(count+2+failTestNum+skipTestNum).getCell(3).setCellFormula
