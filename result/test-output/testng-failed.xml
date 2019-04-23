@@ -6,7 +6,7 @@
   <parameter name="iosAppPath" value="res/app/ios/xxx.app"/>
   <parameter name="androidAppPath" value="res/app/android/XiaoLanYunMart-v1.1.1-debug-2019-04-10-09-58.apk"/>
   <parameter name="appActivity" value="com.example.xiaolanyun.mart.ui.SplashActivity"/>
-  <parameter name="serverURL" value="http://127.0.0.1:4723/wd/hub"/>
+  <parameter name="serverURL" value="http://127.0.0.1:4721/wd/hub"/>
   <parameter name="sessionOverride" value="true"/>
   <parameter name="udid" value=""/>
   <parameter name="appPackage" value="com.example.xiaolanyun.ldmart"/>

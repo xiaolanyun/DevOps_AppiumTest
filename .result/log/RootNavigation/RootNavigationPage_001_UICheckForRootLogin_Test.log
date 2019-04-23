@@ -1,39 +1,41 @@
-[2019-04-19 20:18:40] [INFO] 小烂云Mart已经启动
-[2019-04-19 20:18:40] [INFO] checkLoginUI 测试用例开始执行！
-[2019-04-19 20:18:40] [INFO] checkLoginUI 测试用例开始执行！
-[2019-04-19 20:18:40] [INFO] checkLoginUI 测试用例开始执行！
-[2019-04-19 20:18:40] [INFO] checkLoginUI 测试用例开始执行！
-[2019-04-19 20:18:40] [INFO] 等待登陆界面加载
-[2019-04-19 20:18:45] [INFO] 暂停:5秒
-[2019-04-19 20:18:45] [INFO] 等待5s完成
-[2019-04-19 20:18:45] [INFO] 登陆界面元素加载完成
-[2019-04-19 20:18:45] [INFO] 验证登陆界面客户，商户，管理员三个元素
-[2019-04-19 20:18:45] [INFO] 找到了期望的文字：【客户】
-[2019-04-19 20:18:45] [INFO] 找到了期望的文字：【商户】
-[2019-04-19 20:18:45] [INFO] 找到了期望的文字：【管理员】
-[2019-04-19 20:18:45] [INFO] 验证完成
-[2019-04-19 20:18:45] [INFO] 账户登陆
-[2019-04-19 20:18:45] [INFO] 输入账户名称
-[2019-04-19 20:18:47] [INFO] 暂停:2秒
-[2019-04-19 20:18:52] [INFO] 在元素： id: com.example.xiaolanyun.ldmart:id/et_username输入内容root
-[2019-04-19 20:18:52] [INFO] 输入账户密码
-[2019-04-19 20:18:54] [INFO] 暂停:2秒
-[2019-04-19 20:19:00] [INFO] 在元素： id: com.example.xiaolanyun.ldmart:id/et_password输入内容123456
-[2019-04-19 20:19:00] [INFO] 选择账户类型
-[2019-04-19 20:19:01] [INFO] 点击元素： id: com.example.xiaolanyun.ldmart:id/rbtn_root
-[2019-04-19 20:19:01] [INFO] 等待2s加载登录按钮
-[2019-04-19 20:19:03] [INFO] 暂停:2秒
-[2019-04-19 20:19:03] [INFO] 点击登陆
-[2019-04-19 20:19:18] [WARN] checkLoginUI 测试用例执行失败！
-[2019-04-19 20:19:21] [INFO] [RootNavigationPage_001_UICheckForRootLogin_Test] 截图成功，保存在：[ result/screenshots/RootNavigationPage_001_UICheckForRootLogin_Test.png ]
-[2019-04-19 20:19:21] [WARN] checkLoginUI 测试用例执行失败！
-[2019-04-19 20:19:24] [INFO] [2019_04_19_20_19_21_checkLoginUI] 截图成功，保存在：[ result/screenshots/2019_04_19_20_19_21_checkLoginUI.png ]
-[2019-04-19 20:19:24] [WARN] checkLoginUI 测试用例执行失败！
-[2019-04-19 20:19:26] [INFO] [RootNavigationPage_001_UICheckForRootLogin_Test] 截图成功，保存在：[ result/screenshots/RootNavigationPage_001_UICheckForRootLogin_Test.png ]
-[2019-04-19 20:19:26] [WARN] checkLoginUI 测试用例执行失败！
-[2019-04-19 20:19:28] [INFO] [2019_04_19_20_19_26_checkLoginUI] 截图成功，保存在：[ result/screenshots/2019_04_19_20_19_26_checkLoginUI.png ]
-[2019-04-19 20:19:29] [INFO] 小烂云Mart已经关闭
-[2019-04-19 20:19:29] [INFO] 执行失败的用例 = checkLoginUI
-[2019-04-19 20:19:29] [INFO] 执行失败的用例 = checkLoginUI
-[2019-04-19 20:19:29] [INFO] 执行失败的用例 = checkLoginUI
-[2019-04-19 20:19:29] [INFO] 执行失败的用例 = checkLoginUI
+[2019-04-23 17:08:18] [INFO] 小烂云Mart已经启动
+[2019-04-23 17:08:18] [INFO] checkLoginUI 测试用例开始执行！
+[2019-04-23 17:08:18] [INFO] checkLoginUI 测试用例开始执行！
+[2019-04-23 17:08:18] [INFO] checkLoginUI 测试用例开始执行！
+[2019-04-23 17:08:18] [INFO] checkLoginUI 测试用例开始执行！
+[2019-04-23 17:08:18] [INFO] 等待登陆界面加载
+[2019-04-23 17:08:23] [INFO] 暂停:5秒
+[2019-04-23 17:08:23] [INFO] 等待5s完成
+[2019-04-23 17:08:23] [INFO] 登陆界面元素加载完成
+[2019-04-23 17:08:23] [INFO] 验证登陆界面客户，商户，管理员三个元素
+[2019-04-23 17:08:23] [INFO] 找到了期望的文字：【客户】
+[2019-04-23 17:08:23] [INFO] 找到了期望的文字：【商户】
+[2019-04-23 17:08:23] [INFO] 找到了期望的文字：【管理员】
+[2019-04-23 17:08:23] [INFO] 验证完成
+[2019-04-23 17:08:23] [INFO] 账户登陆
+[2019-04-23 17:08:23] [INFO] 输入账户名称
+[2019-04-23 17:08:25] [INFO] 暂停:2秒
+[2019-04-23 17:08:30] [INFO] 在元素： id: com.example.xiaolanyun.ldmart:id/et_username输入内容root
+[2019-04-23 17:08:30] [INFO] 输入账户密码
+[2019-04-23 17:08:32] [INFO] 暂停:2秒
+[2019-04-23 17:08:37] [INFO] 在元素： id: com.example.xiaolanyun.ldmart:id/et_password输入内容123456
+[2019-04-23 17:08:37] [INFO] 选择账户类型
+[2019-04-23 17:08:37] [INFO] 点击元素： id: com.example.xiaolanyun.ldmart:id/rbtn_root
+[2019-04-23 17:08:38] [INFO] 等待2s加载登录按钮
+[2019-04-23 17:08:40] [INFO] 暂停:2秒
+[2019-04-23 17:08:40] [INFO] 点击登陆
+[2019-04-23 17:08:40] [INFO] 点击元素： id: com.example.xiaolanyun.ldmart:id/btn_login
+[2019-04-23 17:08:42] [INFO] 暂停:2秒
+[2019-04-23 17:08:42] [INFO] 管理员账户登陆成功
+[2019-04-23 17:08:42] [INFO] 点击管理员账户导航栏
+[2019-04-23 17:08:43] [INFO] 点击元素： id: com.example.xiaolanyun.ldmart:id/tab_add_user
+[2019-04-23 17:08:43] [INFO] 已经切换到界面
+[2019-04-23 17:08:43] [INFO] checkLoginUI 测试用例执行成功！
+[2019-04-23 17:08:43] [INFO] checkLoginUI 测试用例执行成功！
+[2019-04-23 17:08:43] [INFO] checkLoginUI 测试用例执行成功！
+[2019-04-23 17:08:43] [INFO] checkLoginUI 测试用例执行成功！
+[2019-04-23 17:08:43] [INFO] 小烂云Mart已经关闭
+[2019-04-23 17:08:43] [INFO] 执行成功的用例 = checkLoginUI
+[2019-04-23 17:08:43] [INFO] 执行成功的用例 = checkLoginUI
+[2019-04-23 17:08:43] [INFO] 执行成功的用例 = checkLoginUI
+[2019-04-23 17:08:43] [INFO] 执行成功的用例 = checkLoginUI
